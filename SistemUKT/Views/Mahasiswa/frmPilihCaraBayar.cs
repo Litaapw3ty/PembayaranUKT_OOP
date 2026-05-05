@@ -1,12 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace SistemUKT.Views.Mahasiswa
 {
-    internal class frmPilihCaraBayar
+    public partial class frmPilihCaraBayar : Form
     {
+        public frmPilihCaraBayar()
+        {
+            InitializeComponent();
+        }
     }
 }

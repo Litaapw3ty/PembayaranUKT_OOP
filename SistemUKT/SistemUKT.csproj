@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FormLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="FormLogin.Designer.cs">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Helper\DBHelper.cs" />
     <Compile Include="Helper\SessionManager.cs" />
     <Compile Include="Models\Cicilan.cs" />
@@ -65,24 +59,96 @@
     <Compile Include="Services\AuthService.cs" />
     <Compile Include="Services\TagihanService.cs" />
     <Compile Include="Services\UserService.cs" />
-    <Compile Include="Views\Admin\frmDashboardAdmin.cs" />
-    <Compile Include="Views\Admin\frmKelolaUser.cs" />
-    <Compile Include="Views\Admin\frmKomponenUKT.cs" />
-    <Compile Include="Views\frmGantiPassword.cs" />
-    <Compile Include="Views\frmLogin.cs" />
-    <Compile Include="Views\Keuangan\frmDashboardKeuangan.cs" />
-    <Compile Include="Views\Keuangan\frmKelolaTagihan.cs" />
-    <Compile Include="Views\Keuangan\frmPenetapanUKT.cs" />
-    <Compile Include="Views\Keuangan\frmValidasiPembayaran.cs" />
-    <Compile Include="Views\Mahasiswa\frmDashboardMahasiswa.cs" />
-    <Compile Include="Views\Mahasiswa\frmPilihCaraBayar.cs" />
-    <Compile Include="Views\Mahasiswa\frmRiwayatPembayaran.cs" />
-    <Compile Include="Views\Mahasiswa\frmTagihanAktif.cs" />
-    <Compile Include="Views\Mahasiswa\frmUploadBuktiPembayaran.cs" />
-    <Compile Include="Views\Mahasiswa\frmUploadDokumenUKT.cs" />
-    <EmbeddedResource Include="FormLogin.resx">
-      <DependentUpon>FormLogin.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="Views\Admin\frmDashAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\frmDashAdmin.Designer.cs">
+      <DependentUpon>frmDashAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\frmKelolaUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\frmKelolaUser.Designer.cs">
+      <DependentUpon>frmKelolaUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\frmKomponenUKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\frmKomponenUKT.Designer.cs">
+      <DependentUpon>frmKomponenUKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmGantiPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmGantiPassword.Designer.cs">
+      <DependentUpon>frmGantiPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmDashboardKeuangan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmDashboardKeuangan.Designer.cs">
+      <DependentUpon>frmDashboardKeuangan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmKomponenUKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmKomponenUKT.Designer.cs">
+      <DependentUpon>frmKomponenUKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmPenetapanUKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmPenetapanUKT.Designer.cs">
+      <DependentUpon>frmPenetapanUKT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmValidasiPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Keuangan\frmValidasiPembayaran.Designer.cs">
+      <DependentUpon>frmValidasiPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmDashboardMahasiswa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmDashboardMahasiswa.Designer.cs">
+      <DependentUpon>frmDashboardMahasiswa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmPilihCaraBayar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmPilihCaraBayar.Designer.cs">
+      <DependentUpon>frmPilihCaraBayar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmRiwayatPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmRiwayatPembayaran.Designer.cs">
+      <DependentUpon>frmRiwayatPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmTagihanAktif.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmTagihanAktif.Designer.cs">
+      <DependentUpon>frmTagihanAktif.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmUploadBuktiPembayaran.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmUploadBuktiPembayaran.Designer.cs">
+      <DependentUpon>frmUploadBuktiPembayaran.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmUploadDokumenUKT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Mahasiswa\frmUploadDokumenUKT.Designer.cs">
+      <DependentUpon>frmUploadDokumenUKT.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SistemUKT.Views.Keuangan
+namespace SistemUKT.Views.Admin
 {
-    public partial class frmPenetapanUKT : Form
+    public partial class frmDashAdmin : Form
     {
-        public frmPenetapanUKT()
+        public frmDashAdmin()
         {
             InitializeComponent();
         }
