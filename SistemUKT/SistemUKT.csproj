@@ -47,8 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Helper\DBHelper.cs" />
-    <Compile Include="Helper\SessionManager.cs" />
+    <Compile Include="Konfigurasi\Koneksi.cs" />
+    <Compile Include="Konfigurasi\Konfigurasi.cs" />
+    <Compile Include="Konfigurasi\SessionManager.cs" />
+    <Compile Include="Konfigurasi\Seting.cs" />
     <Compile Include="Models\Cicilan.cs" />
     <Compile Include="Models\Mahasiswa.cs" />
     <Compile Include="Models\Pembayaran.cs" />
@@ -158,6 +160,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\Admin\frmDashAdmin.resx">
+      <DependentUpon>frmDashAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

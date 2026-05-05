@@ -16,5 +16,10 @@ namespace SistemUKT.Views.Admin
         {
             InitializeComponent();
         }
+
+        private void frmDashAdmin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
