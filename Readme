@@ -26,4 +26,9 @@ Cek References = klik kanan file references, search Mysql.Data ada yang kecentan
 Buka file .sln di Visual Studio
 Tekan Start (F5)
 
------------------ONGOING----------------
+########################
+
+git pull origin main (untuk memperbarui) dengan catatan tidak ada crash/sudah balance
+git commit -m (untuk memberitahukan bagian apa yang diubah)
+git push (up)
+jangan lupa selesai commit di pull terus di push, refresh lagi di vs
