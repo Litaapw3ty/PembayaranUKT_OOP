@@ -1,0 +1,29 @@
+🛠️ Cara Menjalankan Project
+1. Clone Repository
+git clone https://github.com/USERNAME/SistemUKT.git
+
+2. Setup Database
+Buka MySQL / phpMyAdmin
+Buat database: sistem_ukt (file di grup)
+Import / jalankan file SQL yang sudah disediakan
+
+3. Konfigurasi Database (JANGAN DULU)
+
+Edit file:
+
+DBHelper.cs
+
+Sesuaikan connection string:
+
+server=localhost;database=sistem_ukt;uid=root;pwd=;
+
+4. Install Dependency
+
+Pastikan sudah install: MySql.Data
+Cek References = klik kanan file references, search Mysql.Data ada yang kecentang ngga, kalo nggada pilih satu
+
+5. Jalankan Project
+Buka file .sln di Visual Studio
+Tekan Start (F5)
+
+-----------------ONGOING----------------
